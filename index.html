@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do assassino</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cena de crime.png" alt="">
+            <p>Um dia desses, você foi convocado como dono do caso de louys, uma série de assassinatos na mansão de um milionário!</p>
+            <button class="btn-proximo" data-proximo="1">Ir ao seg. andar</button>
+            <button class="btn-proximo" data-proximo="2">Ir aos quartos</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua investigação no segundo andar da mansão.</p>
+            <button class="btn-proximo" data-proximo="3">ir a outro lugar</button>
+            <button class="btn-proximo" data-proximo="4">Investigar mais</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Chegando nos quartos, você encontra vários pertences das vítimas espalhados em baixo das camas de todos os funcionários?</p>
+            <button class="btn-proximo" data-proximo="5">Interrogá-los</button>
+            <button class="btn-proximo" data-proximo="6">Analisar mais locais</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Na metade da investigação, você descobre que existem três suspeitos, analisando pelo sangue e cabelo nas joias dos falecidos.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir a investigação</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você não descobre mais nada, e desiste do caso.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Os suspeitos pareciam bem confusos, e aparentemente não haviam feito nada.</p>
+            <button class="btn-proximo" data-proximo="7">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Passando pelos locais, você descobre que em um local da garagem, tem vários corpos dos funcionários.</p>
+            <button class="btn-proximo" data-proximo="8">Retornar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Interrogando eles, você sabe que muitos não confiam uns nos outros.</p>
+            <button class="btn-proximo" data-proximo="9">Procurar nso suspeitos</button>
+            <button class="btn-proximo" data-proximo="10">Interrogar mais suspeitos</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às origens do crime, você procura por marcas, digitais e DNA dos suspeitos!</p>
+            <button class="btn-proximo" data-proximo="7">Continuar pesquisa</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Os corpos possuiam diversas marcas de arranhões, cortes abertos e feridas no pescoço.</p>
+            <button class="btn-proximo" data-proximo="11">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você descobre os três suspeitos que tinham algum resquício de DNA nos corpos.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e Interrogá-los</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img scr="img/suspeitos.png" alt="">
+            <p>Os três suspeitos são culpados</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Os três são levados até o interrogatório, e apenas um foi declarado culpado, por ter o DNA compativel com o da mancha de sangue das vítimas.</p>
+            <button class="btn-proximo" data-proximo="11">Finalizar investigação</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
